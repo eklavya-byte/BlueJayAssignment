@@ -67,7 +67,7 @@ public class ResultWritter {
                 writer.write("\n");
                 singleSiftEmpCount ++;
             }
-            writer.write("Total no. of employee : " + siftHCount+"\n \n \n \n");
+            writer.write("Total no. of employee : " + singleSiftEmpCount+"\n \n \n \n");
             writer.flush();
             writer.close();
 

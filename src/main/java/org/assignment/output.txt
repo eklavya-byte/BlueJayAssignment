@@ -195,7 +195,7 @@ Total no. of employee : 96
  
 Employee who worked for more than 14 hours in a single shift 
    WFS000523   DeXgadiXXE REdarMe, ChrisMiaW S
-Total no. of employee : 96
+Total no. of employee : 1
  
  
  
