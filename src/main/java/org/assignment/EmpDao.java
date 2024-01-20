@@ -137,34 +137,5 @@ public class EmpDao {
         return result;
     }
 
-// ---------------- these are the test ---------------------
-//    public static void main(String[] args) {
-//        EmpDao empDao = new EmpDao();
-////        List<List<String>> names = empDao.namesBaseOnWork(7);// working fine !
-////
-////        int total = 0;
-////        int count = 0;
-////        String prevDup = "";
-////        for (List<String> name : names) {
-////            String currentDup = name.get(0);
-////            if (prevDup.equals("")) {
-////                prevDup = currentDup;
-////            } else if (prevDup.equals(currentDup)) {
-////                count++;
-////            } else {
-////                System.out.println(prevDup + " appeared consecutively " + (count + 1) + " times.");
-////                count = 0;
-////                prevDup = currentDup;
-////                total++;
-////            }
-////        }
-////        System.out.println(total);
-////        Set<String> strings = empDao.namesBaseOnWorkHour(14);
-////        System.out.println(strings);
-////        System.out.println(empDao.namesBaseOnTimeBetweenShifts(1,10));
-//        //System.out.println(empDao.namesBaseOnTimeBetweenShifts2(1, 10));
-////        for(List<String> s : empDao.namesBaseOnTimeBetweenShifts(1, 10)){
-////            System.out.println(s);
-////        }
-//    }
+
 }
